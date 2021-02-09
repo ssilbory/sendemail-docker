@@ -1,7 +1,7 @@
 # sendemail-docker
-A simple container to send an email to a smtp server.
+A simple container to send an email to a smtp server
 
-The container requires the following arguments in this order: To From Subject "Body" Server.
+Container requires the following arguments in this order: To From Subject "Body" Server.
 Optionally you can supply a user, password and additional arguments to sendEmail.
 
 Examples:

@@ -12,6 +12,7 @@ help(){
 }
 
 [ "$1" = "-h" ] && help
+[ "$1" = "--help" ] && help
 
 TO=$1
 FROM=$2
